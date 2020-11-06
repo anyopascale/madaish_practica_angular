@@ -1,0 +1,65 @@
+<footer>
+  <div class="top_inf_footer">
+    <div class="container-lg">
+      <div class="info_left_footer">
+        <div class="gfds">
+          <p> {{infoPaginaService.info.text_newsletter}} </p>
+
+        </div>
+      
+        <div class="nwslltr_right">
+          <i class="fa fa-envelope-o"></i>
+          <form action="">
+            <input type="text">
+            <button> Suscribirme</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="spc_content_footer">
+      <div class="container">
+        <div class="spc_footer">
+          <div class="col_footer">
+            <a routerLink="" class="logo_footrrrrrr">
+              <img src="../../assets/img/logo_madahish_1.png" alt=""/>
+            </a>
+          </div>
+          <div class="col_footer brdrr">
+            <div class="list_menu_footer">
+              <a routerLink="about" >Sobre Madaish</a>
+              <a routerLink="faqs">Faqs</a>
+              <a routerLink="legal">Terminos</a>
+              <a routerLink="contact">Contacto</a>
+            </div>
+          </div>
+          <div class="col_footer">
+            <div class="redes_sociales_footer">
+              <a href=" {{infoPaginaService.info.facebook}} ">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="{{infoPaginaService.info.instagram}}">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="mailTo:{{infoPaginaService.info.email}}">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              </a>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="spc_gggggg">
+    <div class="container_lg">
+      <div class="spc_sub_footer">
+        <p>Copyright {{anio}} {{infoPaginaService.info.nombre_corto}} | {{infoPaginaService.info.titulo}}, Todos los derechos reservados,
+          <a routerLink="legal">Aviso Legal</a>.
+          <a routerLink="legal">Politica de Cookies</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>

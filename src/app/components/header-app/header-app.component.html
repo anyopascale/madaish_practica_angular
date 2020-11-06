@@ -1,0 +1,80 @@
+<header>
+  <div class="top_header">
+    <div class="container_lg">
+      <div class="cntent_header">
+        <div class="left_header">
+          <div class="bx_arrw">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+          <div class="txt_arrw"> {{infoPaginaService.info.description}} </div>
+        </div>
+        <div class="right_header">
+          <div class="spc_btn_redes">
+            <a href=" {{infoPaginaService.info.facebook}} ">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="{{infoPaginaService.info.instagram}}">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="mailTo:{{infoPaginaService.info.email}}">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </a>
+           
+          </div>
+          <div class="btns_actions">
+            <a href="#">Unirse</a>
+            <span></span>
+            <a href="#"> 
+              <p>entra</p>
+              <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bttm_header">
+    <div class="btn_add_nw">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </div>
+    <div class="container">
+      <div class="content_btm_header">
+        <div class="logo_main">
+          <a routerLink="">
+          <img src="../../assets/img/logo_madahish_1.png" alt=""/>
+        </a>
+      </div>
+        <div class="info_logo_main">
+          <span></span>
+          <p>Registrate gratis para elegir tus contenidos e infuencers favoritas.</p>
+          <span></span>
+        </div>
+        <div class="buscador">
+          <form>
+            <input type="text" placeholder="Buscar..." (keyup.enter)="buscarProducto( txtBuscar.value )" #txtBuscar />
+            <button type="submit">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="menu_header">
+    <div class="container_lg">
+      <div class="cntrl_menu">
+        <div class="container">
+          <div class="menu">
+            <a routerLink="" >Home</a>
+            <a routerLink="productos">Productos</a>
+            <a routerLink="enConstruccion">Blog</a>
+            <a routerLink="faqs">Faqs</a>
+            <a routerLink="about">About</a>
+            <a routerLink="contact">Contacto</a>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
